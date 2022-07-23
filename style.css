@@ -1,0 +1,307 @@
+@media only screen and (min-width: 768px){
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: #fff;
+}
+
+.social-bar{
+    background-color: #272a31;
+    width: 100%;
+}
+
+.social-items{
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    gap: 30px;
+    margin-right: 10%;
+}
+
+.social-item{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    text-decoration: none;
+    color: #000;
+    margin-left: 15%;
+}
+
+.menu-icon{
+    display: flex;
+}
+
+.nav-list{ 
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    gap: 70px;
+    margin-right: 10px;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-item:hover{
+    color: #ec5242;
+}
+
+.right-decal{
+    display: flex;
+    border: 5px solid;
+    border-color: #ec5242;
+    margin-right: 150px;
+    padding: 10px;
+    color: #ec5242;
+}
+
+.mobile-nav{
+    display: none;
+}
+
+.background{
+    background-image: url("main-background.png");
+    background-position-x: 50%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+}
+.about-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 0;
+    padding-top: 200px;
+    padding-bottom: 135px;
+    margin-left: 15%;
+    color: #ec5242;
+}
+
+.about-header{
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 70px;
+}
+
+.message{
+    background-color: #F5F5F6;
+    color: #000;
+    border: 5px solid;
+    border-color: #fff;
+}
+
+.date{
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 36px;
+    color: #575757;
+
+}
+
+.location{
+    color: #575757;
+    font-size: 24px;
+
+}
+
+.program-details{
+    background-image: url("pattern-bg.png");
+    background-color: #272a32;
+    z-index: 1;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details-title{
+    color: #fff;
+    margin-top: 50px;
+}
+
+.seperator{
+    width: 53px;
+    height: 16px;
+    border-bottom: 1px solid #ef513c;
+    margin: 0 auto 54px;
+}
+
+.program-cards-div{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.program-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5px;
+    padding-top: 10px;
+    width: calc(20% - 3px);
+    height: 230px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.program-card-title{
+    color: #ec5242;
+}
+
+.program-card-descrip{
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.see-program{
+    color: #fff;
+    margin-top: 50%;
+}
+
+.featured-roaster-header{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.featured-roasters-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 100px;
+    
+    
+}
+
+.featured-roaster{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.featured-roaster-img{
+    max-height: 160px;
+    max-width: 160px;
+}
+
+.featured-roaster-info{
+    margin-left: 20px;
+}
+
+.featured-roaster-name{
+    font-weight: bold;
+
+}
+
+.featured-roaster-location{
+    color: #ec5242;
+    font-style: italic;
+    margin: 0px; 
+}
+
+.roaster-seperator{
+    width: 20px;
+    border-bottom: 1px solid #575757;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.partners{
+    background-color: #272a31;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partners-title{
+    margin-top: 40px;
+}
+
+.partners-info{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    align-items:center;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+.cck{
+    width: 200px;
+    margin-right: 100px;
+    margin-left: 15%;
+    
+    
+}
+
+.notice{
+    color: #575757;
+    font-weight: lighter;
+    margin-right: 5%;
+}
+
+
+
+
+}
+
+
+@media only screen and (max-width: 768px){
+
+    .nav-bar,
+    .social-bar{
+        display: none;
+    }
+
+    header{
+        width: 100%;
+        padding-top: 10px;
+
+    }
+
+    .mobile-nav{
+        position: fixed;
+        margin-left: 20px;
+    }
+
+    
+
+    .hamburger-icon{
+        margin-right: 10px;
+        padding-bottom: 10px;
+    }
+
+  
+    
+
+
+}
