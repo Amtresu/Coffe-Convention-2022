@@ -1,6 +1,6 @@
 # Project Name
 
-> This is the beginnning of my portfolio built for Microverse
+> This website is to advertise the Global assocation of coffee roasters very first annual coffee exhibition. 
 
 
 ## Built With
@@ -9,9 +9,9 @@
 - CSS
 - Javascript
 
-## Live Demo (if available)
+## Live Demo 
 
-
+https://amtresu.github.io/Microverse-Capstone-Project-Module-1/
  
 
 ## Getting Started
