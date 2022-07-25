@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   body {
     font-family: 'Lato', sans-serif;
     margin: 0;
@@ -408,7 +408,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
   .nav-bar,
   .social-bar,
   .notice,
