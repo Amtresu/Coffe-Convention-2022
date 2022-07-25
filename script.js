@@ -24,31 +24,30 @@ navMenuButton.addEventListener('click', () => {
 })
 
 const roasterInfo1 = [
-    {
-      name: 'Brandywine',
-      screenshot: 'img/featured-roaster-1.webp',
-      location: 'Wilmington, DE',
-      description: 'Brandywine is a premier coffee<br> roaster from wilmington, DE'
-      
-    },
-    {
+  {
+    name: 'Brandywine',
+    screenshot: 'img/featured-roaster-1.webp',
+    location: 'Wilmington, DE',
+    description: 'Brandywine is a premier coffee<br> roaster from wilmington, DE'
 
-      name: 'Birdrock',
-      screenshot: 'img/featured-roaster-6.jpg',
-      location: 'San-Diego, CA',
-      description: 'Brandywine is a premier coffee<br> roaster from wilmington, DE'
-    },
-    {
-        name: 'Cat & Cloud',
-        screenshot: 'img/featured-roaster-2.jpg',
-        location: 'Santa Ana, CA',
-        description: 'Brandywine is a premier coffee<br> roaster from wilmington, DE'
-     },
-  
+  },
+  {
 
-  ]
+    name: 'Birdrock',
+    screenshot: 'img/featured-roaster-6.jpg',
+    location: 'San-Diego, CA',
+    description: 'Brandywine is a premier coffee<br> roaster from wilmington, DE'
+  },
+  {
+    name: 'Cat & Cloud',
+    screenshot: 'img/featured-roaster-2.jpg',
+    location: 'Santa Ana, CA',
+    description: 'Brandywine is a premier coffee<br> roaster from wilmington, DE'
+  }
 
-  document.querySelector('.featured-roasters-column-1').innerHTML = roasterInfo1.map((data) =>
+]
+
+document.querySelector('.featured-roasters-column-1').innerHTML = roasterInfo1.map((data) =>
 
   `<div class="featured-roaster">
           <div class="featured-roaster-img-div">
@@ -62,26 +61,25 @@ const roasterInfo1 = [
           </div>
         </div>`).join('')
 
-
 const roasterInfo2 = [
-      {
-        name: 'Blue Bottle',
-        screenshot: 'img/featured-roaster-3.jpg',
-        location: 'New York, NY',
-        description: 'Brandywine is a premier coffee<br> roaster from wilmington, DE'
-      },
-      {
-          name: 'Olympia',
-          screenshot: 'img/featured-roaster-4.png',
-          location: 'Olympia, WA',
-          description: 'Brandywine is a premier coffee<br> roaster from wilmington, DE'
-      },
-      {
-          name: 'Onyx',
-          screenshot: 'img/featured-roaster-5.jpg',
-          location: 'Bentonville, AK',
-          description: 'Brandywine is a premier coffee<br> roaster from wilmington, DE'
-      }
+  {
+    name: 'Blue Bottle',
+    screenshot: 'img/featured-roaster-3.jpg',
+    location: 'New York, NY',
+    description: 'Brandywine is a premier coffee<br> roaster from wilmington, DE'
+  },
+  {
+    name: 'Olympia',
+    screenshot: 'img/featured-roaster-4.png',
+    location: 'Olympia, WA',
+    description: 'Brandywine is a premier coffee<br> roaster from wilmington, DE'
+  },
+  {
+    name: 'Onyx',
+    screenshot: 'img/featured-roaster-5.jpg',
+    location: 'Bentonville, AK',
+    description: 'Brandywine is a premier coffee<br> roaster from wilmington, DE'
+  }
 ]
 
 document.querySelector('.featured-roasters-column-2').innerHTML = roasterInfo2.map((data) =>
@@ -97,6 +95,3 @@ document.querySelector('.featured-roasters-column-2').innerHTML = roasterInfo2.m
             <p>${data.description}</p>
           </div>
         </div>`).join('')
-
-
-  
