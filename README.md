@@ -1,6 +1,6 @@
-# Project Name
+# Globaol association of Craft Coffee Roasters!
 
-> This website is to advertise the Global assocation of coffee roasters very first annual coffee exhibition. 
+> This website is to advertise the Global assocation of coffee roasters very first annual coffee exhibition. It's a fully responsive completely adaptable site implementing javascript objects, and funtioning javascript modal menu. It includes a home page, and a seperate about page. Please enjoy.     
 
 
 ## Built With
@@ -15,19 +15,21 @@ https://amtresu.github.io/Microverse-Capstone-Project-Module-1/
  
 
 ## Getting Started
-
-Clone the repository and open it up!
-
+Clone the repository to your local drive. I recommend using VSCode for editing the project.
+gh repo clone Amtresu/Microverse-Capstone-Project-Module-1
+https://github.com/Amtresu/Microverse-Capstone-Project-Module-1.git
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-Working Computer
+Have a working computer
 ### Setup
-Simply Download
+Simply Download/Clone
 ### Install
-Text Editor
+Preferred Text Editor/ I recommend VS Code!
+
+Once you've done that you are free to open the project up on your own live server and code away!
 
 
 
