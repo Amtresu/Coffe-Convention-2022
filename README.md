@@ -1,4 +1,4 @@
-# Globaol association of Craft Coffee Roasters!
+# Global association of Craft Coffee Roasters!
 
 > This website is to advertise the Global assocation of coffee roasters very first annual coffee exhibition. It's a fully responsive completely adaptable site implementing javascript objects, and funtioning javascript modal menu. It includes a home page, and a seperate about page. Please enjoy.     
 
